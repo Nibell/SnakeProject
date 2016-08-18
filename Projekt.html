@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="windows-1252">
+		<title>Projekt</title>
+		<link rel="stylesheet" type="text/css" href="Projekt.css">
+		<script type="text/javascript" src="Projekt.js"></script>
+	</head>
+
+	<body onload="ShowPage(0)" id="MyBody" onkeydown="ChangeDirection(event);">
+		<div class="menuContainer">
+			<div id="menu0" class="menuItem" onclick="ShowPage(0);">Start Sidan</div>
+			<div id="menu1" class="menuItem" onclick="ShowPage(1);">Snake</div>
+			<div id="menu2" class="menuItem" onclick="ShowPage(2);">Topplistan</div>
+		</div>
+		<div class="page" id="Page0"><h1>Startsidan</h1>
+			<p>Projekt spel sida<br />Man kan spela snake och se highscore<br />
+			</p>
+		</div>
+		<div class="page" id="Page1"></div>
+		<div class="page" id="Page2"></div>
+	</body>
+</html>
