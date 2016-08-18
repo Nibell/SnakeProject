@@ -1,0 +1,61 @@
+#MyBody
+{
+	background-color:#000000;
+}
+
+.menuContainer
+{
+	position: absolute;
+	display: block;
+	left: 10px;
+	top: 10px;
+	width: 800px;
+	
+	background-color:#000000;
+	
+	border-top: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.menuItem 
+{
+	float: left;
+	width: 198px;
+	height: 27px;
+	z-index: 1;
+	text-align:center;
+	
+	background-image:url(http://static3.grsites.com/archive/textures/metal/metal067.jpg);
+	
+	border-top: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.page 
+{
+	position: absolute;
+	top: 40px;
+	left: 10px;
+	width:800px;
+	height:800px;
+	text-align:center;
+
+	background-image:url(http://static4.grsites.com/archive/textures/write/write035.gif);
+	
+	border-left: 1px solid #000000;
+	border-right: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
